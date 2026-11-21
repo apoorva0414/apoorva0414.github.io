@@ -10,7 +10,8 @@ My career story as a scrolling mountain climb. A plain static site: no build ste
 
 ## Before you share it
 - **CV:** add your PDF to this folder and name it `cv.pdf`. The "Download my CV" button links to it.
-- **Email:** the site uses `apoorva.k@u.nus.edu`. To change it, edit `EMAIL` in the script near the bottom of `index.html` and the address in the letter section.
+- **Email:** the site uses `apoorva.k@u.nus.edu`. To change it, edit `EMAIL` in the script near the bottom of `index.html` and the address in the "Get in touch" section.
+- **Contact form:** today it opens the visitor's email app. To have it send directly, create a form at formspree.io and add `action="https://formspree.io/f/your-form-id" method="POST"` to `<form id="contactForm">`. Nothing else needs to change.
 
 ## Swapping in the real illustrations
 The placeholder art is in `assets/`. Four poses: `me-walk`, `me-chai`, `me-rain`, `me-summit`.
